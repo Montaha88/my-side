@@ -5,7 +5,9 @@
 }
 .main{
 width: 100%;
-
+background: url(image/banner.jpg);
+background-position: center;
+background-size: cover;
 height: 100vh;
 position: relative;
 font-family: sans-serif;
@@ -36,12 +38,12 @@ ul li a{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(253, 168, 10);
+    color: rgb(12, 12, 12);
     margin-top: -35%;
     transition: -4s ease;
 }
 ul li a:hover{
-    color: rgb(0, 255, 17);
+    color: rgb(219, 227, 118);
 }
 .info{
     margin-left: 7%;
@@ -72,4 +74,36 @@ ul li a:hover{
 }
 .info a:hover{
     background: gold;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+    margin-bottom: 25%;
+    transition: left 2s ease;
+}
+.image:hover .girl{
+    left: 50%;
+
+}
+
+.icons {
+    margin-left: 7%;
+    color: rgb(241, 203, 64);
+    margin-right: 100px;
+    font-size: 40px;
+    transition: -4s ease;
+    
+}
+.icons:hover{
+    color: rgb(255, 0, 195);
 }
