@@ -1,16 +1,18 @@
+/*header*/
 *{
-    padding: 0;
-    margin: 0;
-    
+    padding:0;
+    margin: 0;  
 }
 .main{
 width: 100%;
-background: url(image/banner.jpg);
+background:url(image/banner.png);
 background-position: center;
 background-size: cover;
-height: 100vh;
+height: 95vh;
 position: relative;
 font-family: sans-serif;
+margin-left: 30px;
+margin-right: 30px;
 }
 .navbar{
     width: 86%;
@@ -41,6 +43,7 @@ ul li a{
     color: rgb(12, 12, 12);
     margin-top: -35%;
     transition: -4s ease;
+    text-transform: capitalize;
 }
 ul li a:hover{
     color: rgb(219, 227, 118);
@@ -107,3 +110,63 @@ ul li a:hover{
 .icons:hover{
     color: rgb(255, 0, 195);
 }
+/*section*/
+.f-se{
+    background-color:rgb(252, 246, 227);
+    margin: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+
+}
+.f-se h3{
+    font-size: 40px;
+}
+.about-me-content{
+    display:flex;
+    justify-content:space-around;
+    margin-top: 50px;
+
+}
+.content:hover{
+    color: rgb(255, 128, 0);
+}
+/*second section*/
+.div-1{
+    background-color: rgb(254, 254, 238);
+    padding: 0px;
+    margin-bottom: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.sec-div{
+    margin-left: 270px;
+}
+
+.last-mid{
+    width: 1250px;
+    height: 1667px;
+    margin: auto;
+    
+}
+.sub-container img{
+      height: 258px;
+      width: 300px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+}
+.sub-container{
+    width: 329px;
+    height: 476px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ 
